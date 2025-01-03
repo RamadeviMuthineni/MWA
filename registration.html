@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #FFF8DC;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        
+        }
+        .rege{
+            border: 1px solid black;
+            width: 500px;
+            height: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        button{
+            color: black;
+           background-color: rgb(109, 233, 27);
+           text-decoration: none;
+           padding:10px;
+           border-radius:9px;
+           background-attachment: fixed;
+    
+        }
+    </style>
+</head>
+<bodys>
+    <form>
+        <div class="rege">
+        <h3 align="center">REGISTRATION FORM</h3>
+            <label><b>First Name</label>
+            <input type="text" placeholder="Enter Your First Name" style="width: 90%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" required>
+            <br><br>
+            <label><b>Last Name</label>
+            <input type="password" placeholder="Enter Your Last Name" style="width: 90%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" required><br><br>
+            <label>Register Number</label>
+            <input type=" text" placeholder="Enter Your Register Number" style="width: 90%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" required><br><br>
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter Your Phone Number" style="width: 90%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" required><br><br>
+            <label><b> Year </b></label>
+    <select>
+        <option value="select">Select</option>
+        <option value="I /IV">I YEAR</option>
+        <option value="II /IV">II YEAR</option>
+        <option value="III /IV">III YEAR</option>
+        <option value="IV/IV">IV YEAR</option>
+    </select>
+    <label>Department</label>
+    <select>
+        <option value="select">Select</option>
+        <option value="csbs">CSBS</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="IOT">IOT</option>
+        <option value="MECH">MECH</option>
+    </select><br><br>
+    <label>Date Of Birth</label>
+    <input type="date"  style="border: black solid 1px;"><br><br>
+    <label>Gender</label><br><br>
+    <input type="radio" name="gender" value="male">Male</input><br><br>
+    <input type="radio" name="gender" value="female">Female</input><br><br>
+    <label>Address</label><br>
+    <textarea rows="10" cols="50">Enter tour text</textarea>
+    <div class="submit">
+    <button>Submit</button>
+    <button >Clear</button>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
